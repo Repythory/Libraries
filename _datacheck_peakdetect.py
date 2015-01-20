@@ -3,6 +3,12 @@ def _datacheck_peakdetect(x_axis, y_axis):
 	You need to import this function in order to use peackdetect
 	Basically it checks if the x_axis and y_axis are of the right type and lenght 
 	
+	Args:
+		x_axis, y_axis: array of numbers where y(x)
+	
+	Returns: 
+		x_axis, y_axis: if they are correct and in the right shape
+	
 	"""
 	
 	

@@ -1,10 +1,19 @@
 
 def intNd(c,axes):
     """ 
-    c is a matrix n*n
-    axes is a list of the corresponding coordinates
     
-		return: the integral of c (n*n) array
+    Having a n*n matrix that correspond to the value of a function with n arguments (n axes)
+    this function give back the integral of this function using the axes that you select
+    
+    Author: Michele Monti monti@amolf.nl	
+    
+    Args:
+		c: is a matrix n*n
+		axes: is a list of the corresponding coordinates
+    
+	Returns: the integral of c (n*n) using axes
+	
+	
 	"""
     assert len(c.shape) == len(axes)
     assert all([c.shape[i] == axes[i].shape[0] for i in range(len(axes))])

@@ -1,7 +1,6 @@
-Workshops
+Libraries
 
 
 =========
 
 
-Contains all Hands-On Workshops.

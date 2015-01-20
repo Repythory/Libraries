@@ -2,12 +2,16 @@
 	
 def joinprob3d(ff,T1=2*pi):
 	"""
-	ff is the output of histogram2d, this function make a 3d plot with the right axis.
 	
+	Given the 2d Histogram (ff) of 2 set of data, this function give back the 3d plot of the join probability with the right axis.
 	
-	given an object ff where ff[0] is the distribution from histogram2d to 3d plot, ff[1] is the x axis, ff[2] the y axis
+	Author: Michele Monti monti@amolf.nl
+	
+	Args:
+		ff: (list) is the output of histogram2d, 
+			ff[0] is the distribution from histogram2d to 3d plot, ff[1] is the x axis, ff[2] the y axis
 		
-	return the 3Dplot of the join distribution with the colorbar of the gradient!
+	Returns: the 3Dplot of the join distribution with the colorbar of the gradient!
 	
 	"""
 	
@@ -29,4 +33,4 @@ def joinprob3d(ff,T1=2*pi):
 	m = cm.ScalarMappable(cmap=cm.jet)
 	m.set_array(G)
 	plt.colorbar(m)
-	plt.show()
+	return plt.show()

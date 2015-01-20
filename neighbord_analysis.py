@@ -2,12 +2,22 @@
 
 def neighbord_analysis(xas,col=0):
 	"""
-	xas the name of the list or data set that you want:
-	col is the column of the data set that you need to analyze
-	return:
-		c = the mean distance between neighbords, 
-		d = stdeviation of the distances between neighbords.
-		b = the difference between the first-neighbord in a list 
+	Given an array xas this function compute the distance between the elements the mean distance and the variance
+	
+	Author: Michele Monti monti@amolf.nl
+	
+	Args:
+			xas: the name of the list or data set that you want:
+	
+
+	Kwargs:
+		col: is the column of the data set that you need to analyze
+
+
+	Returns:
+		c: the mean distance between neighbords, 
+		d: stdeviation of the distances between neighbords.
+		b: the difference between the first-neighbord in a list 
 	"""
 	xas=np.array(xas)
 	

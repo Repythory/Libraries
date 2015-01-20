@@ -1,14 +1,16 @@
 def datamaxmin(filename,xcol=0,ycol=1, graph='N'):
 	"""
-	filename is the name of the data file to analyze. It has to be .txt. 
-	xcol is the column of the data file to se as the x axis 
-	ycol is the column that hat to set as yaxis
 	
-	set graph='Y' if you want also the plot of the data and where max and min are.
-	
-	return:
-		maxi list of the max (maxi[:,0] is the x-coordinate of the max, maxi[:,1] is the y)
-		mini list of the min (mini[:,0] is the x-coordinate of the max, mini[:,1] is the y)
+	Args:
+		filename: is the name of the data file to analyze. It has to be .txt. 
+		xcol: is the column of the data file to se as the x axis 
+		ycol: is the column that hat to set as yaxis
+		
+		graph: set ='Y' if you want also the plot of the data and where max and min are.
+		
+	Returns:
+		maxi: list of the max (maxi[:,0] is the x-coordinate of the max, maxi[:,1] is the y)
+		mini: list of the min (mini[:,0] is the x-coordinate of the max, mini[:,1] is the y)
 	
 	"""
 	data = np.loadtxt(filename)                       # myfile.txt is the file to import

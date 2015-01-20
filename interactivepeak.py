@@ -1,8 +1,14 @@
 
 def interactivepeak(data):
 	"""
-	data is a data set x,y
-	Funny function: plot the data and for each clic point a maximum of the graph! 
+	FUNNY GRAPHICAL INTERFACE for finding the peaks! ;)
+	
+	Author: Michele Monti monti@amolf.nl
+	
+	Args:
+		data: is a data set x,y
+	
+	Returns: plot the data and for each clic point a maximum of the graph! 
 	"""
 		X,Y=data[:,0], data[:,1]
 		fig = plt.figure()
