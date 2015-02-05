@@ -1,54 +1,93 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
+*.pyc
+*/*/*.pyc
+examples/
+
 *.py[cod]
+
+*/*/*.ipynb
+*/*/*.rst
+*/*/*.html
+
 
 # C extensions
 *.so
 
-# Distribution / packaging
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
+# Packages
 *.egg
-
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
 
 # Installer logs
 pip-log.txt
-pip-delete-this-directory.txt
 
 # Unit test / coverage reports
-htmlcov/
-.tox/
 .coverage
-.cache
+.tox
 nosetests.xml
-coverage.xml
 
-# Translations
-*.mo
-*.pot
+.cache/
 
-# Django stuff:
+build/
+dist/
+sandbox/
+docs/
+notebooks/
+
+convert.log
+tox.ini
+
+foldometer.egg-info/
+
+# certain ipython notebook files
+Sandbox.ipynb
+!notebooks/*.ipynb
+
+# sublime project files
+*.sublime-project
+*.sublime-workspace
+
+# PyCharm project files
+*.xml
+.idea
+*.iml
+
+
+
+# files related to python testing system
+.coverage
+setup.cfg
+bento.info
+
+# ignore all files related to pythontex except the template itself
+tweezer/templates/pytex/*
+!tweezer/templates/pytex/*.tex
+
+# all TODO files
+*.TODO
+
+# Latex extra files
+*.aux
+*.out
 *.log
+*template.pdf
 
-# Sphinx documentation
-docs/_build/
+# profile files
+*.profile
 
-# PyBuilder
-target/
+# files from nose testing
+setup.json
+tests.json
+
+# ignore Mac specific files
+.DS_Store
