@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: AMOLF-Repythory
+Version: 0.1
+Summary: Python package for AMOLF research
+Home-page: https://github.com/Repythory/Libraries
+Author: The AMOLF Python Team
+Author-email: UNKNOWN
+License: MIT
+Description: Collection of libraries, scripts and algorithms written in Python to aid the research and data analysis in AMOLF.
+Keywords: AMOLF
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering

@@ -1,0 +1,16 @@
+pytest
+docopt
+pandas
+tables
+numpy
+scipy
+termcolor
+parsley
+clint
+wx
+
+[dev]
+check-manifest
+
+[test]
+coverage
