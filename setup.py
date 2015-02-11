@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
 
-from tweezer import __version__
+from __future__ import print_function
 
 try:
     from setuptools import setup, find_packages
@@ -14,13 +14,13 @@ from os import path
 here = path.abspath(path.dirname(__file__))
 # Get the long description from the relevant file
 DEPENDENCIES = ['pytest', 'docopt', 'pandas', 'tables', 'numpy',
-                'scipy', 'termcolor', 'parsley', 'clint', 'wx']
+                'scipy', 'wx']
 PACKAGES = ['amolf',
-            'amolf.analysis',
-            'amolf.image',
+            #’amolf.analysis',
+            #’amolf.image',
             'amolf.ixo',
-            'amolf.physics',
-            'amolf.simulations',
+            #’amolf.physics',
+            #’amolf.simulations',
             'amolf.tools']
 MODULES = ['amolf.ixo.get_file',
            'amolf.ixo.get_dir',
