@@ -9,5 +9,5 @@ Nicola Gritti
 Jacopo Solari
 Michele Monti
 Keita Kamino
-Luc Bloom
+Luc Blom
 Mario Avellaneda
