@@ -4,7 +4,7 @@ def autocorrelation(x):
     http://en.wikipedia.org/wiki/Autocorrelation#Estimation
     http://stackoverflow.com/q/14297012/190597
 
-	Author: Michele Monti monti@amolf.nl
+	Author: Michele Monti
 
 	Args:
 		x array of numbers that you have to copmute the autocorrelation
